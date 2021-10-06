@@ -40,7 +40,7 @@ const ActivityDetail = (e) => {
                 console.log('err', err)
             }
         }
-    }, []);
+    }, [calls]);
 
     async function archive(_id) {
         try {

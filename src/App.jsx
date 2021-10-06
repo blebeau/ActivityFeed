@@ -7,9 +7,7 @@ const App = () => {
   return (
     <div>
       <Header />
-      {/* <div className="container-view">Some activities should be here</div> */}
-      <div><ActivityDetail /></div>
-
+      <ActivityDetail />
     </div>
   );
 };
